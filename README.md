@@ -1,6 +1,6 @@
 # PHOTO_HUNTER_2025
 
-Un site web en MVC procédural artisanal à partir d'un template et d'une DB fournis.
+Un site web en MVC procédural via un framework artisanal inspiré de LARAVEL. Le template et d'une DB sont fournis.
 
 ## Instruction
 
