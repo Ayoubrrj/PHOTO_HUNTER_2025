@@ -3,7 +3,7 @@
                 <article class="bg-white rounded-lg shadow-lg overflow-hidden flex">
                   <img
                     class="w-full md:w-1/3 md:h-auto object-cover"
-                    src="<?php echo $author['picture']; ?>"
+                    src="https://picsum.photos/200/300?random=<?php echo $author['picture']; ?>"
                     alt="<?php echo $author['firstname']; ?> <?php echo $author['lastname']; ?>"
                   />
 
@@ -25,4 +25,4 @@
                 </article>
                 <?php endforeach; ?>
                 <!-- Assurez-vous que chaque photographe a une image unique -->
-              </div>
+</div>

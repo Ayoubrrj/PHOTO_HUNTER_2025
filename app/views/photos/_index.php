@@ -3,7 +3,7 @@
                 <article class="bg-white rounded-lg shadow-lg overflow-hidden">
                   <img
                     class="w-full h-40 object-cover"
-                    src="<?php echo $photo['cover']; ?>"
+                    src="https://picsum.photos/200/300?random=<?php echo $photo['id']; ?>"
                     alt="Nom du photo"
                   />
 
@@ -24,7 +24,7 @@
                     <?php echo \Core\Helpers\truncate($photo['resume'], 50); ?>
                     </p>
                     <a
-                      href="photo.html"
+                      href="?photos=show&ID=<?php echo $photo['photoID']; ?>"
                       class="mt-4 inline-block bg-indigo-500 text-white py-2 px-4 rounded-lg hover:bg-indigo-700"
                     >
                       En savoir plus

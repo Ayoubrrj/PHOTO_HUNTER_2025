@@ -3,7 +3,7 @@
         <div class="flex justify-between h-16">
           <div class="flex">
             <div class="flex-shrink-0 flex items-center">
-              <a href="#" class="font-bold text-xl">PHOTO HUNTER LIGHT</a>
+              <a href="?" class="font-bold text-xl">PHOTO HUNTER LIGHT</a>
             </div>
           </div>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
